@@ -1,0 +1,47 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 194px;
+    height: 194px;
+    animation: spin 2s linear infinite;
+    margin-top: 25%;
+    margin-bottom:25%;
+    margin-left:40%;
+    margin-right:40%;
+}
+
+.Checker{
+    margin-left:15%;
+    margin-right:15%;
+    width:100%;
+    margin-bottom:5%
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

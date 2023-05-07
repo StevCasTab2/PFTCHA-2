@@ -1,0 +1,793 @@
+{
+  "Files": [
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PFTCHA.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PFTCHA.bundle.scp.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_maps.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_maps.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_placeholders.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_placeholders.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_color-bg.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\helpers\\_color-bg.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_stacks.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\helpers\\_stacks.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\helpers\\_vr.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\helpers\\_vr.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_backdrop.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_backdrop.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_banner.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_banner.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "H:\\PFTC\\Projects\\Home-Assignment\\PFTCHA\\PFTCHA\\PFTCHA\\wwwroot\\lib\\twitter-bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.PFTCHA.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.PFTCHA.props",
+      "PackagePath": "build\\PFTCHA.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.PFTCHA.props",
+      "PackagePath": "buildMultiTargeting\\PFTCHA.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.PFTCHA.props",
+      "PackagePath": "buildTransitive\\PFTCHA.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "SRTGenerator": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "httpPort": 255
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    }
+  }
+}

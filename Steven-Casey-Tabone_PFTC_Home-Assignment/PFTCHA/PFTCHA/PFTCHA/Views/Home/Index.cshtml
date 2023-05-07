@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    @if (User.Identity.IsAuthenticated)
+    {
+           
+    }
+    else
+    {
+        <h2>Please Sign in to access features</h2>
+        <a class="nav-link text-dark" asp-area="" asp-controller="FileHandler" asp-action="Index">Sign In</a>
+    }
+</div>

@@ -1,0 +1,172 @@
+﻿@model List<PFTCHA.Models.VideoInfoForDatabase>
+<link href="~/lib/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" />
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@section Scripts{
+    <script>
+
+        function DeleteVideo(User,VidId,VidName){
+            var formData = new FormData();
+            formData.append("User", User);
+            formData.append("VidId", VidId);
+            formData.append("VidName", VidName);
+            $.ajax({
+                type: 'DELETE',
+                url: '@Url.Action("DeleteVideo","FileHandler")', // /Posts/DeletePost
+                contentType: false,
+                processData: false,
+                cache: false,
+                data: formData,
+                success: () => { document.getElementById(VidId).remove(); }, //removing post on successful request
+                error: (err) => console.log(err),
+            })
+
+        }
+    </script>
+    }
+
+@if (Model.Count > 0)
+{
+
+    <h2 class="Checker">Check for Downloaded SRTs at 'C:\Users\Public\Downloads\'</h2>
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4 col-xs-6 border-primary mb-3" id="@item.VidId">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-12">
+                            <div class="card-header text-white bg-info" style="display:flex">
+                                    <h5 class="card-title" style="width:99.9%">
+                                        @item.VideoName
+                                    </h5>
+                                <a href="#" onclick="DeleteVideo('@User.Identity.Name','@Html.DisplayFor(modelItem => item.VidId)', '@Html.DisplayFor(modelItem => item.VideoName)')">X</a>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <img src="@item.ThumbnailUrl" width="100%" alt="@item.VideoName">
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card-body">
+                                <p class="card-text"><b>Video Name: </b>@item.VideoName</p>
+                                <p class="card-text"><b>Uploaded: </b>@item.DateTimeUploaded</p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card-footer ">
+                                <p class="card-text">
+                                    @if (item.TranscriptionString == null)
+                                    {
+                                        @if (item.VideoUrl != null)
+                                        {
+                                            <a class="btn btn-outline-primary float-right" asp-controller="FileHandler" asp-action="HttpCall" asp-route-VidId="@item.VidId">
+                                                <i class="bi bi-eye-fill"></i> Convert
+                                            </a>
+                                        }
+                                        else
+                                        {
+                                            <a class="btn btn-outline-dark float-right">
+                                                <i class="bi bi-eye-fill"></i> Convert
+                                            </a>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        @if (item.SRTUrl == null)
+                                        {
+                                            <a class="btn btn-outline-primary float-right" asp-controller="FileHandler" asp-action="GenerateSRT" asp-route-VidId="@item.VidId">
+                                                <i class="bi bi-eye-fill"></i> Generate SRT
+                                            </a>
+                                        }
+                                        else
+                                        {
+                                            <a class="btn btn-outline-dark float-right">
+                                                <i class="bi bi-eye-fill"></i> Generate SRT
+                                            </a>
+                                        }
+                                    }
+                                    @if (item.FlacUrl != null)
+                                    {
+                                        <a class="btn btn-outline-primary float-right" asp-controller="FileHandler" asp-action="UploadForTranscription" asp-route-VidId="@item.VidId">
+                                            <i class="bi bi-eye-fill"></i> Transcribe
+                                        </a>
+                                    }
+                                    else
+                                    {
+                                        <a class="btn btn-outline-dark float-right">
+                                            <i class="bi bi-eye-fill"></i> Transcribe
+                                        </a>
+                                    }
+                                    @if (item.VideoUrl != null)
+                                    {
+                                        <a class="btn btn-outline-primary float-right" asp-controller="FileHandler" asp-action="DownloadVideo" asp-route-user="@User.Identity.Name" asp-route-vidid="@item.VidId">
+                                            <i class="bi bi-eye-fill"></i> Download
+                                        </a>
+                                    }
+                                    else if(item.SRTUrl != null)
+                                    {
+                                        <a class="btn btn-outline-primary float-right" asp-controller="FileHandler" asp-action="DownloadVideo" asp-route-user="@User.Identity.Name" asp-route-vidid="@item.VidId">
+                                            <i class="bi bi-eye-fill"></i> Download SRT
+                                        </a>
+                                    }
+                                    else
+                                    {
+                                        <a class="btn btn-outline-dark float-right">
+                                            <i class="bi bi-eye-fill"></i> Download
+                                        </a>
+                                    }
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <h2>No Videos found</h2>
+    <a asp-area="" asp-controller="FileHandler" asp-action="UploadVideo">Upload a video!</a>
+}
+
+@section CSS{
+    <style>
+        img{
+            height:270px;
+        }
+
+        .grid-row{
+            display:flex;
+        }
+        .grid-container{
+                /*display:grid;
+                grid-template-columns: auto auto auto;
+                */
+            background - color:aliceblue;
+            border: 1px solid grey;
+            padding: 10px;
+            margin: 20px;
+            width: 80 %;
+            height: 80 %;
+            display: flex;
+        }
+       
+        .grid-item{
+            background-color:antiquewhite;
+            border:1px solid grey;
+            font-size:30px;
+            text-align:center;
+            width:50%;
+        }
+
+        .card-title{
+            text-align:center;
+        }
+    </style>
+}
