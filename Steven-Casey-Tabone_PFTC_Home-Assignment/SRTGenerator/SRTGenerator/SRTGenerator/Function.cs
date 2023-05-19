@@ -17,7 +17,7 @@ namespace SRTGenerator
 {
     public class Function : IHttpFunction
     {
-        private readonly GoogleCredential googleCredential = GoogleCredential.FromFile("../../../theta-solution-377011-94bfb5b80ee9.json");
+        private readonly GoogleCredential googleCredential = GoogleCredential.FromFile("../../../projectforpftc-a2c8e69e6062.json");
         private StorageClient storageClient;
         private FirestoreDb _db;
         private ILogger<Function> _logger;
@@ -30,8 +30,8 @@ namespace SRTGenerator
         /// <returns>A task representing the asynchronous operation.</returns>
         public async Task HandleAsync(HttpContext context)
         {
-            System.Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", "../../../theta-solution-377011-94bfb5b80ee9.json");
-            _db = FirestoreDb.Create("theta-solution-377011");
+            System.Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", "../../../projectforpftc-a2c8e69e6062.json");
+            _db = FirestoreDb.Create("projectforpftc");
 
             storageClient = StorageClient.Create(googleCredential);
 
@@ -99,7 +99,7 @@ namespace SRTGenerator
             using (var memoryStream = new MemoryStream())
             {
                 await file.CopyToAsync(memoryStream);
-                var dataObject = await storageClient.UploadObjectAsync("processed_audiofiles", fileName, null, memoryStream);
+                var dataObject = await storageClient.UploadObjectAsync("processed_audiofiles2", fileName, null, memoryStream);
                 return dataObject.MediaLink;
             }
         }

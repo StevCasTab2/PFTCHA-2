@@ -12,7 +12,7 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-System.Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", "theta-solution-377011-94bfb5b80ee9.json");
+System.Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", "projectforpftc-a2c8e69e6062.json");
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
@@ -20,10 +20,11 @@ builder.Services.AddControllersWithViews();
 
 // Build the parent project name.
 SecretManagerServiceClient client = SecretManagerServiceClient.Create();
-AccessSecretVersionResponse result = client.AccessSecretVersion("projects/110578221303/secrets/Client-Secret/versions/1");
+AccessSecretVersionResponse result = client.AccessSecretVersion("projects/11376233894/secrets/ClientSecret/versions/1");
 string secretKey = result.Payload.Data.ToStringUtf8();
-string clientId = secretKey.Substring(21, 72);
-string clientsecret = secretKey.Substring(329, 35);
+string clientId = secretKey.Substring(21, 71);
+string clientsecret = secretKey.Substring(321, 35);
+
 //Added Authentication to builder
 builder.Services.AddAuthentication(options =>
 {

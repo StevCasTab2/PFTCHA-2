@@ -21,7 +21,7 @@ namespace PFTCHA.Services
         {
             _projectId = config.GetValue<string>("Authentication:Google:ProjectId");
             _db = FirestoreDb.Create(config.GetValue<string>("Authentication:Google:ProjectId"));
-            googleCredential = GoogleCredential.FromFile(config.GetValue<string>("Authentication:Google:Credentials"));
+            googleCredential = GoogleCredential.FromFile("projectforpftc-a2c8e69e6062.json");
             storageClient = StorageClient.Create(googleCredential);
             bucketName = config.GetValue<string>("Authentication:Google:CloudStorageBucket");
         }
@@ -40,13 +40,13 @@ namespace PFTCHA.Services
 
             try
             {
-                await storageClient.DeleteObjectAsync("unconv_videos", VD.ImgStorageName);
+                await storageClient.DeleteObjectAsync("unconv_videos2", VD.ImgStorageName);
             }
             catch (Exception ex)
             {
                 try
                 {
-                    await storageClient.DeleteObjectAsync("processed_audiofiles", VD.ImgStorageName);
+                    await storageClient.DeleteObjectAsync("processed_audiofiles2", VD.ImgStorageName);
                 }
                 catch(Exception e)
                 {
@@ -55,13 +55,13 @@ namespace PFTCHA.Services
             }
             try
             {
-                await storageClient.DeleteObjectAsync("unconv_videos", VD.VideoStorageName);
+                await storageClient.DeleteObjectAsync("unconv_videos2", VD.VideoStorageName);
             }
             catch(Exception ex)
             {
                 try
                 {
-                    await storageClient.DeleteObjectAsync("processed_audiofiles", VD.VideoStorageName);
+                    await storageClient.DeleteObjectAsync("processed_audiofiles2", VD.VideoStorageName);
                 }
                 catch(Exception e)
                 {
@@ -140,7 +140,7 @@ namespace PFTCHA.Services
                     fileDownloadPath = @"C:\Users\Public\Downloads\" + VD.VideoName + index + ".mp4";
                 }
                 using var outputFile = File.OpenWrite(fileDownloadPath);
-                await storageClient.DownloadObjectAsync("unconv_videos", VD.VideoStorageName, outputFile);
+                await storageClient.DownloadObjectAsync("unconv_videos2", VD.VideoStorageName, outputFile);
 
                 List<ToConvertTime> times = new List<ToConvertTime>();
                 Query allPostsQuery = _db.Collection("Videos").Document(VidSnap.Documents[0].Id).Collection("Downloads");
@@ -202,7 +202,7 @@ namespace PFTCHA.Services
                 using var outputFile = File.OpenWrite(fileDownloadPath);
                 string file = VD.VideoStorageName;
                 file = file.Replace(".flac", ".srt");
-                await storageClient.DownloadObjectAsync("processed_audiofiles", file, outputFile);
+                await storageClient.DownloadObjectAsync("processed_audiofiles2", file, outputFile);
             }
         }
 

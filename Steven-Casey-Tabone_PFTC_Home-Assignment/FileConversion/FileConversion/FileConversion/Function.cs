@@ -26,7 +26,7 @@ namespace FileConversion
 {
     public class Function : IHttpFunction
     {
-        private readonly GoogleCredential googleCredential = GoogleCredential.FromFile("theta-solution-377011-94bfb5b80ee9.json");
+        private readonly GoogleCredential googleCredential = GoogleCredential.FromFile("../../../projectforpftc-a2c8e69e6062.json");
         private StorageClient storageClient;
         private FirestoreDb _db;
         private ILogger<Function> _logger;
@@ -42,7 +42,7 @@ namespace FileConversion
         }
         public async Task HandleAsync(HttpContext context)
         {
-            System.Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", "theta-solution-377011-94bfb5b80ee9.json");
+            System.Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", "../../../projectforpftc-a2c8e69e6062.json");
 
             storageClient = StorageClient.Create(googleCredential);
             Microsoft.AspNetCore.Http.HttpRequest request = context.Request;
@@ -99,7 +99,7 @@ namespace FileConversion
 
         private async Task DownloadVid(VideoInfoForDatabase VD)
         {
-            _db = FirestoreDb.Create("theta-solution-377011");
+            _db = FirestoreDb.Create("projectforpftc");
 
             /*Query VidQuery = _db.Collection("Videos").WhereEqualTo("VidId", VidId);
             QuerySnapshot VidSnap = await VidQuery.GetSnapshotAsync();
@@ -112,8 +112,8 @@ namespace FileConversion
             try
             {
                 WriteLogEntry("Conversion","Conversion: Downloading " + VD.owner + "'s video");
-                await storageClient.DownloadObjectAsync("unconv_videos", VD.VideoStorageName, outputFile);
-                await storageClient.DownloadObjectAsync("unconv_videos", VD.ImgStorageName, outputFile2);
+                await storageClient.DownloadObjectAsync("unconv_videos2", VD.VideoStorageName, outputFile);
+                await storageClient.DownloadObjectAsync("unconv_videos2", VD.ImgStorageName, outputFile2);
                 outputFile.Dispose();
                 outputFile2.Dispose();
                 WriteLogEntry("Conversion","Conversion: Converting " + VD.owner + "'s video to wav");
@@ -147,8 +147,8 @@ namespace FileConversion
                 {
                     string[] vid = VD.VideoStorageName.Split(".");
                     WriteLogEntry("Conversion","Conversion: Uploading " + VD.owner + "'s flac file: " + VD.VideoName);
-                    string vidpath = await UploadFileAsync(VidFile, vid[0] + ".flac", "processed_audiofiles");
-                    string imgpath = await UploadFileAsync(ImgFile, VD.ImgStorageName, "processed_audiofiles");
+                    string vidpath = await UploadFileAsync(VidFile, vid[0] + ".flac", "processed_audiofiles2");
+                    string imgpath = await UploadFileAsync(ImgFile, VD.ImgStorageName, "processed_audiofiles2");
                     WriteLogEntry("Conversion","Conversion: Uploaded " + VD.owner + "'s flac file: " + VD.VideoName);
                     Query vidQuery = _db.Collection("Videos").WhereEqualTo("VideoStorageName", VD.VideoStorageName);
                     QuerySnapshot VidVidQuery = await vidQuery.GetSnapshotAsync();
@@ -160,8 +160,8 @@ namespace FileConversion
                     await DR.UpdateAsync("VideoStorageName", vid[0] + ".flac");
                     WriteLogEntry("Conversion","Conversion: Updated data for " + VD.owner + "'s flac file: " + VD.VideoName);
                     WriteLogEntry("Conversion","Conversion: Deleting old files for " + VD.owner + "'s flac file: " + VD.VideoName);
-                    storageClient.DeleteObject("unconv_videos", VD.VideoStorageName);
-                    storageClient.DeleteObject("unconv_videos", VD.ImgStorageName);
+                    storageClient.DeleteObject("unconv_videos2", VD.VideoStorageName);
+                    storageClient.DeleteObject("unconv_videos2", VD.ImgStorageName);
                     WriteLogEntry("Conversion","Conversion: Deleted old files for " + VD.owner + "'s flac file: " + VD.VideoName);
 
                     WriteLogEntry("Conversion","Conversion COMPLETED: " + VD.owner + "'s flac file: " + VD.VideoName);
@@ -211,7 +211,7 @@ namespace FileConversion
         private void WriteLogEntry(string logId, string message)
         {
             var client = LoggingServiceV2Client.Create();
-            LogName logName = new LogName("theta-solution-377011", logId);
+            LogName logName = new LogName("projectforpftc", logId);
             LogEntry logEntry = new LogEntry
             {
                 LogNameAsLogName = logName,

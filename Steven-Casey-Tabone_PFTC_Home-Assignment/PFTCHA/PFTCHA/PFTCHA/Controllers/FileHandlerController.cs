@@ -38,14 +38,15 @@ namespace PFTCHA.Controllers
             foreach(VideoInfoForDatabase v in list)
             {
                 string url = "";
-                if (v.FlacUrl == null)
+                if (v.FlacUrl != null || v.TranscriptionString != null)
                 {
-                    url = _urlSigner.Sign("unconv_videos", v.ImgStorageName, TimeSpan.FromHours(1), HttpMethod.Get);
+                    url = _urlSigner.Sign("processed_audiofiles2", v.ImgStorageName, TimeSpan.FromHours(1), HttpMethod.Get);
                 }
                 else
                 {
-                    url = _urlSigner.Sign("processed_audiofiles", v.ImgStorageName, TimeSpan.FromHours(1), HttpMethod.Get);
+                    url = _urlSigner.Sign("unconv_videos2", v.ImgStorageName, TimeSpan.FromHours(1), HttpMethod.Get);
                 }
+
                 v.ThumbnailUrl = url;
             }
             return View(list);

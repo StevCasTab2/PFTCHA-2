@@ -121,7 +121,6 @@ H:\PFTC\Projects\Home-Assignment\PFTCHA\PFTCHA\bin\Debug\net6.0\Google.Cloud.Sec
 H:\PFTC\Projects\Home-Assignment\PFTCHA\PFTCHA\PFTCHA\bin\Debug\net6.0\appsettings.Development.json
 H:\PFTC\Projects\Home-Assignment\PFTCHA\PFTCHA\PFTCHA\bin\Debug\net6.0\appsettings.json
 H:\PFTC\Projects\Home-Assignment\PFTCHA\PFTCHA\PFTCHA\bin\Debug\net6.0\libman.json
-H:\PFTC\Projects\Home-Assignment\PFTCHA\PFTCHA\PFTCHA\bin\Debug\net6.0\theta-solution-377011-94bfb5b80ee9.json
 H:\PFTC\Projects\Home-Assignment\PFTCHA\PFTCHA\PFTCHA\bin\Debug\net6.0\PFTCHA.staticwebassets.runtime.json
 H:\PFTC\Projects\Home-Assignment\PFTCHA\PFTCHA\PFTCHA\bin\Debug\net6.0\PFTCHA.exe
 H:\PFTC\Projects\Home-Assignment\PFTCHA\PFTCHA\PFTCHA\bin\Debug\net6.0\PFTCHA.deps.json
@@ -178,3 +177,4 @@ H:\PFTC\Projects\Home-Assignment\PFTCHA\PFTCHA\PFTCHA\obj\Debug\net6.0\refint\PF
 H:\PFTC\Projects\Home-Assignment\PFTCHA\PFTCHA\PFTCHA\obj\Debug\net6.0\PFTCHA.pdb
 H:\PFTC\Projects\Home-Assignment\PFTCHA\PFTCHA\PFTCHA\obj\Debug\net6.0\PFTCHA.genruntimeconfig.cache
 H:\PFTC\Projects\Home-Assignment\PFTCHA\PFTCHA\PFTCHA\obj\Debug\net6.0\ref\PFTCHA.dll
+H:\PFTC\Projects\Home-Assignment\PFTCHA\PFTCHA\PFTCHA\bin\Debug\net6.0\projectforpftc-a2c8e69e6062.json

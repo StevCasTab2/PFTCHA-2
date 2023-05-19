@@ -106,3 +106,7 @@ H:\PFTC\Projects\Home-Assignment\FileConversion\FileConversion\FileConversion\ob
 H:\PFTC\Projects\Home-Assignment\FileConversion\FileConversion\FileConversion\obj\Debug\net6.0\FileConversion.pdb
 H:\PFTC\Projects\Home-Assignment\FileConversion\FileConversion\FileConversion\obj\Debug\net6.0\FileConversion.genruntimeconfig.cache
 H:\PFTC\Projects\Home-Assignment\FileConversion\FileConversion\FileConversion\obj\Debug\net6.0\ref\FileConversion.dll
+H:\PFTC\Projects\Home-Assignment\FileConversion\FileConversion\FileConversion\bin\Debug\net6.0\Google.Cloud.Diagnostics.Common.dll
+H:\PFTC\Projects\Home-Assignment\FileConversion\FileConversion\FileConversion\bin\Debug\net6.0\Google.Cloud.Logging.Type.dll
+H:\PFTC\Projects\Home-Assignment\FileConversion\FileConversion\FileConversion\bin\Debug\net6.0\Google.Cloud.Logging.V2.dll
+H:\PFTC\Projects\Home-Assignment\FileConversion\FileConversion\FileConversion\bin\Debug\net6.0\Google.Cloud.Trace.V1.dll

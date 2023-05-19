@@ -4,8 +4,8 @@ using Google.Cloud.Diagnostics.Common;
 using Serilog;
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
-System.Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", "theta-solution-377011-94bfb5b80ee9.json");
-builder.Logging.AddGoogle(new LoggingServiceOptions { ProjectId = "theta-solution-377011" });
+System.Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", "projectforpftc-a2c8e69e6062.json");
+builder.Logging.AddGoogle(new LoggingServiceOptions { ProjectId = "projectforpftc" });
 builder.Services.AddControllersWithViews();
 var app = builder.Build();
 

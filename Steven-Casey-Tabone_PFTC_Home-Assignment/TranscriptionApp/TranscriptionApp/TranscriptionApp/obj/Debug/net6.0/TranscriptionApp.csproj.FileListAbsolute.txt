@@ -52,7 +52,6 @@ H:\PFTC\Projects\Home-Assignment\TranscriptionApp\TranscriptionApp\Transcription
 H:\PFTC\Projects\Home-Assignment\TranscriptionApp\TranscriptionApp\TranscriptionApp\obj\Debug\net6.0\TranscriptionApp.pdb
 H:\PFTC\Projects\Home-Assignment\TranscriptionApp\TranscriptionApp\TranscriptionApp\obj\Debug\net6.0\TranscriptionApp.genruntimeconfig.cache
 H:\PFTC\Projects\Home-Assignment\TranscriptionApp\TranscriptionApp\TranscriptionApp\obj\Debug\net6.0\ref\TranscriptionApp.dll
-H:\PFTC\Projects\Home-Assignment\TranscriptionApp\TranscriptionApp\TranscriptionApp\bin\Debug\net6.0\theta-solution-377011-94bfb5b80ee9.json
 H:\PFTC\Projects\Home-Assignment\TranscriptionApp\TranscriptionApp\TranscriptionApp\bin\Debug\net6.0\Google.Api.Gax.Rest.dll
 H:\PFTC\Projects\Home-Assignment\TranscriptionApp\TranscriptionApp\TranscriptionApp\bin\Debug\net6.0\Google.Apis.Storage.v1.dll
 H:\PFTC\Projects\Home-Assignment\TranscriptionApp\TranscriptionApp\TranscriptionApp\bin\Debug\net6.0\Google.Cloud.Storage.V1.dll
@@ -62,3 +61,4 @@ H:\PFTC\Projects\Home-Assignment\TranscriptionApp\TranscriptionApp\Transcription
 H:\PFTC\Projects\Home-Assignment\TranscriptionApp\TranscriptionApp\TranscriptionApp\bin\Debug\net6.0\Google.Cloud.Logging.V2.dll
 H:\PFTC\Projects\Home-Assignment\TranscriptionApp\TranscriptionApp\TranscriptionApp\bin\Debug\net6.0\Google.Cloud.Trace.V1.dll
 H:\PFTC\Projects\Home-Assignment\TranscriptionApp\TranscriptionApp\TranscriptionApp\bin\Debug\net6.0\Serilog.dll
+H:\PFTC\Projects\Home-Assignment\TranscriptionApp\TranscriptionApp\TranscriptionApp\bin\Debug\net6.0\projectforpftc-a2c8e69e6062.json

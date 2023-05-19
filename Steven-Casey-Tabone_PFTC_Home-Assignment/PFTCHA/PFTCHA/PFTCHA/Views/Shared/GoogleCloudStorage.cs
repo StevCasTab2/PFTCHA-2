@@ -28,7 +28,7 @@ namespace PFTCHA.Views.Shared
             using (var memoryStream = new MemoryStream())
             {
                 await file.CopyToAsync(memoryStream);
-                var dataObject = await storageClient.UploadObjectAsync("unconv_videos", fileName, null, memoryStream);
+                var dataObject = await storageClient.UploadObjectAsync("unconv_videos2", fileName, null, memoryStream);
                 return dataObject.MediaLink;
             }
         }
@@ -37,13 +37,13 @@ namespace PFTCHA.Views.Shared
             using (var memoryStream = new MemoryStream())
             {
                 await file.CopyToAsync(memoryStream);
-                var dataObject = await storageClient.UploadObjectAsync("processed_audiofiles", fileName, null, memoryStream);
+                var dataObject = await storageClient.UploadObjectAsync("processed_audiofiles2", fileName, null, memoryStream);
                 return dataObject.MediaLink;
             }
         }
         public async Task DeleteFileAsync(string videoname)
         {
-            await storageClient.DeleteObjectAsync("unconv_videos", videoname);
+            await storageClient.DeleteObjectAsync("unconv_videos2", videoname);
         }
     }
 }

@@ -31,13 +31,13 @@ namespace TranscriptionApp.Controllers
         public SubscribeController(ILogger<SubscribeController> _logger)
         {
 
-            System.Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", "theta-solution-377011-94bfb5b80ee9.json");
-            _db = FirestoreDb.Create("theta-solution-377011");
-            googleCredential = GoogleCredential.FromFile("theta-solution-377011-94bfb5b80ee9.json");
+            System.Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", "projectforpftc-a2c8e69e6062.json");
+            _db = FirestoreDb.Create("projectforpftc");
+            googleCredential = GoogleCredential.FromFile("projectforpftc-a2c8e69e6062.json");
             storageClient = StorageClient.Create(googleCredential);
             // Create a new subscriber client
             subscriber = SubscriberServiceApiClient.Create();
-            subscriptionName = new SubscriptionName("theta-solution-377011", "Transcription");
+            subscriptionName = new SubscriptionName("projectforpftc", "Transcription-sub");
             // Create a timer that triggers every minute
             //subscriber.CreateSubscription(subscriptionName, topicName, pushConfig: null, ackDeadlineSeconds: 60);
         }
@@ -62,12 +62,12 @@ namespace TranscriptionApp.Controllers
         }
         private async void TimerCallback(object state)
         {
-            TopicName topicName = new TopicName("theta-solution-377011", "Transcription");
+            TopicName topicName = new TopicName("projectforpftc", "Transcription");
             bool Check = false;
-            ProjectName projectName = ProjectName.FromProject("theta-solution-377011");
+            ProjectName projectName = ProjectName.FromProject("projectforpftc");
             foreach (Subscription s in subscriber.ListSubscriptions(projectName))
             {
-                if(s.Name == "projects/theta-solution-377011/subscriptions/Transcription-sub")
+                if(s.Name == "projects/projectforpftc/subscriptions/Transcription-sub")
                 {
                     Check = true;
                 }
@@ -102,10 +102,11 @@ namespace TranscriptionApp.Controllers
                         var config = new RecognitionConfig
                         {
                             Encoding = RecognitionConfig.Types.AudioEncoding.Flac,
-                            SampleRateHertz = 44100,
+                            SampleRateHertz = 48000,
                             LanguageCode = LanguageCodes.English.UnitedStates,
                             EnableWordConfidence = true,
-                            EnableWordTimeOffsets = true
+                            EnableWordTimeOffsets = true,
+                            AudioChannelCount = 2
                         };
 
                         Query vidQuery = _db.Collection("Videos").WhereEqualTo("VidId", VidId);
@@ -115,7 +116,7 @@ namespace TranscriptionApp.Controllers
 
                         string VidName = VD.VideoStorageName.Replace(".mp4", "");
                         VidName = VidName.Replace(".flac", "");
-                        string VideoUrl = "gs://processed_audiofiles/" + VidName + ".flac";
+                        string VideoUrl = "gs://processed_audiofiles2/" + VidName + ".flac";
 
                         var audio = RecognitionAudio.FromStorageUri(VideoUrl);
 
@@ -123,15 +124,15 @@ namespace TranscriptionApp.Controllers
 
                         foreach (var result in response.Results)
                         {
-                            foreach (var alternative in result.Alternatives)
-                            {
+                            //foreach (var alternative in result.Alternatives)
+                            //{
                                 List<WordInfo> words = new List<WordInfo>();
-                                foreach (WordInfo w in alternative.Words)
+                                foreach (WordInfo w in result.Alternatives[0].Words)
                                 {
                                     words.Add(w);
                                 }
-                                SaveTranscription(alternative.Transcript, words, VidId);
-                            }
+                                await SaveTranscription(result.Alternatives[0].Transcript, words, VidId);
+                            //}
                         }
                         WriteLogEntry("Transcription","Finished Transcribing" + VD.owner + "'s  Video: " + VD.VideoName);
                         await DeleteFileAsync(VidName + ".flac");
@@ -186,13 +187,13 @@ namespace TranscriptionApp.Controllers
             float interval = 5;
             int wordinterval = 0;
             int SequenceNumber = 1;
-            foreach(WordInfo word in words)
+            for(int i = 0; i < words.Count; i++)
             {
-                string wordStart = word.StartTime.ToString();
+                string wordStart = words[i].StartTime.ToString();
                 wordStart = wordStart.Replace("\\", "");
                 wordStart = wordStart.Replace("s", "");
                 wordStart = wordStart.Replace("\"", "");
-                string wordEnd = word.EndTime.ToString();
+                string wordEnd = words[i].EndTime.ToString();
                 wordEnd = wordEnd.Replace("\\", "");
                 wordEnd = wordEnd.Replace("s", "");
                 wordEnd = wordEnd.Replace("\"", "");
@@ -203,9 +204,9 @@ namespace TranscriptionApp.Controllers
                     if (wordinterval == 0)
                     {
                         int finaltimeindex = -99;
-                        for(int i = 0; i < words.Count; i++)
+                        for(int j = i; j < words.Count; j++)
                         {
-                            string wordEndTemp = words[i].EndTime.ToString();
+                            string wordEndTemp = words[j].EndTime.ToString();
                             wordEndTemp = wordEndTemp.Replace("\\", "");
                             wordEndTemp = wordEndTemp.Replace("s", "");
                             wordEndTemp = wordEndTemp.Replace("\"", "");
@@ -213,11 +214,11 @@ namespace TranscriptionApp.Controllers
                             if (wordEndTempFloat > interval)
                             {
 
-                                finaltimeindex = (i-1);
+                                finaltimeindex = (j-1);
                                 break;
                             }
 
-                            if(i == words.Count-1 && finaltimeindex == -99)
+                            if(j == words.Count-1 && finaltimeindex == -99)
                             {
                                 finaltimeindex = words.Count - 1;
                                 break;
@@ -241,17 +242,38 @@ namespace TranscriptionApp.Controllers
                         string ModifEndString = EndString.Substring(0, 12);
                         float TempFloatHolder = float.Parse(tempholderforendtime);
                         Formatted += SequenceNumber + "^" + ModifStartString + "~-->~" + ModifEndString + "^" ;
-                        Formatted += word.Word;
+                        Formatted += words[i].Word;
                     }
                     else
                     {
-                        Formatted += "~" + word.Word;
+                        Formatted += "~" + words[i].Word;
                     }
 
                     wordinterval += 1;
                 }
 
-                if(WordStartTime > interval)
+                float WordEndT = 0;
+                if (words[i] != words[words.Count - 1])
+                {
+                    int f = words.FindIndex(u => u.Word == words[i].Word);
+                    f++;
+                    string wordEndt = words[f].EndTime.ToString();
+                    wordEndt = wordEndt.Replace("\\", "");
+                    wordEndt = wordEndt.Replace("s", "");
+                    wordEndt = wordEndt.Replace("\"", "");
+                    WordEndT = float.Parse(wordEndt);
+                }
+                else
+                {
+                    string wordEndt = words[words.Count - 1].EndTime.ToString();
+                    wordEndt = wordEndt.Replace("\\", "");
+                    wordEndt = wordEndt.Replace("s", "");
+                    wordEndt = wordEndt.Replace("\"", "");
+                    WordEndT = float.Parse(wordEndt);
+
+                }
+
+                if (WordStartTime > interval || WordEndT> interval )
                 {
                     Formatted += "^^";
                     interval += 5;
@@ -262,19 +284,24 @@ namespace TranscriptionApp.Controllers
 
             DocumentReference vidref = _db.Collection("Videos").Document(VidVidQuery.Documents[0].Id);
             vidref.UpdateAsync("TranscriptionString", Formatted);
+            vidref.UpdateAsync("FlacUrl", null);
             vidref.UpdateAsync("Status", "DoneTranscribing");
         }
 
         public async Task DeleteFileAsync(string videoname)
         {
-            await storageClient.DeleteObjectAsync("processed_audiofiles", videoname);
+            if (videoname[videoname.Length-1] == '/' || videoname[videoname.Length - 1] == '\\')
+            {
+                videoname.Remove(videoname.Length-1);
+            }
+            await storageClient.DeleteObjectAsync("processed_audiofiles2", videoname);
         }
 
         public async Task PurgeRecords(VideoInfoForDatabase vd)
         {
             try
             {
-                await storageClient.DeleteObjectAsync("processed_audiofiles", vd.VideoStorageName);
+                await storageClient.DeleteObjectAsync("processed_audiofiles2", vd.VideoStorageName);
             }
             catch(Exception e)
             {
@@ -283,7 +310,7 @@ namespace TranscriptionApp.Controllers
 
             try
             {
-                await storageClient.DeleteObjectAsync("processed_audiofiles", vd.ImgStorageName);
+                await storageClient.DeleteObjectAsync("processed_audiofiles2", vd.ImgStorageName);
             }
             catch(Exception e)
             {
@@ -307,7 +334,7 @@ namespace TranscriptionApp.Controllers
         private void WriteLogEntry(string logId, string message)
         {
             var client = LoggingServiceV2Client.Create();
-            LogName logName = new LogName("theta-solution-377011", logId);
+            LogName logName = new LogName("projectforpftc", logId);
             LogEntry logEntry = new LogEntry
             {
                 LogNameAsLogName = logName,
